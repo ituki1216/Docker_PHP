@@ -5,4 +5,4 @@ CREATE TABLE test_db.users (
     PRIMARY KEY (id)
 );
 
-INSERT INTO `users` VALUES (1, 'Fuku', 30)
+INSERT INTO `users` VALUES (1, 'yama', 30)

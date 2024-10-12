@@ -3,8 +3,8 @@
 // 接続
 // hostはコンテナ名を記載する
 $dsn = 'mysql:dbname=test_db;host=run-php-db;';
-$user = 'test';
-$password = 'test';
+$user = 'php';
+$password = 'php';
 
 try {
     $pdo = new PDO($dsn, $user, $password);
@@ -14,4 +14,5 @@ try {
 } catch (PDOException $e) {
     print('Error:'.$e->getMessage());
     exit;
-}
+} 
+?>
